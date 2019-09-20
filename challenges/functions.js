@@ -43,6 +43,8 @@ console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice t
 // Explanation: 
 
 
+//*** The variable internal is specific to (or belongs to) the nestedFunction. The parent function (myFunction) does not know anything about the variables nested inside it's inner functions..which is closure.***//
+
 const external = "I'm outside the function";
 
 function myFunction() {

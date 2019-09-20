@@ -110,11 +110,11 @@ const unisWithUni = [];
 
 for (let i = 0; i < graduates.length; i++){
   
-  if (graduates.includes ('Uni')){
+  if (graduates[i].university.includes("Uni")){
     unisWithUni.push(graduates[i]);
   }
 
-} //FINISH THIS ONE//
+}
 
 console.log(unisWithUni);
 
@@ -185,15 +185,15 @@ console.log(lowPopulationAnimals);
 The zoos need to know their total animal population across the United States. Find the total population from all the zoos using the .reduce() method. Remember the reduce method takes two arguments: a callback (which itself takes two args), and an initial value for the count.
 
 */
-const populationTotal = 0;
+let populationTotal = 0;
 
-zooAnimals.reduce((total, amount) => {
-  return populationTotal += amount.population;
+
+
+populationTotal = zooAnimals.reduce(function(accumulator, item){
+  return accumulator + item.population; 
 }, 0);
-
 console.log(populationTotal);
 
-//FIX THIS AS WELL
 /*
 
 Stretch: If you haven't already, convert your array method callbacks into arrow functions.
