@@ -30,30 +30,30 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
-    The .forEach method executes a function for each individual item in an array. The .map method is used to change every item in an array. .map will return the entire array.
+    # The .forEach method executes a function for each individual item in an array. The .map method is used to change every item in an array. .map will return the entire array.
 
 2. What is the difference between a function and a method?
 
-    A method is a function saved on an object. A function is like a mini computer program that is passed data and can return data as well. They allow us to write code that can be used repeatedly. 
+    # A method is a function saved on an object. A function is like a mini computer program that is passed data and can return data as well. They allow us to write code that can be used repeatedly. 
 
 3. What is closure?
 
-    A closure in an inner function (child) that has access to the outer functions (parents) variables.  A closure has access to any variable in any of the functions that it is nested in. The ‘parent’ functions do not have access to anything inside the inner function - this is closure. 
+    # A closure in an inner function (child) that has access to the outer functions (parents) variables.  A closure has access to any variable in any of the functions that it is nested in. The ‘parent’ functions do not have access to anything inside the inner function - this is closure. 
 
 4. Describe the four rules of the 'this' keyword.
 
-    Global Binding - When in the "world" (global scope), the value of THIS will be the console Object.
+    # Global Binding - When in the "world" (global scope), the value of THIS will be the console Object.
 
-    Implicit Binding - whenever a function is called by a dot, the object to the left of the dot is assigned THIS. THIS points to the entire object. 
+    # Implicit Binding - whenever a function is called by a dot, the object to the left of the dot is assigned THIS. THIS points to the entire object. 
 
-    New Binding - Whenever a constructor function is used THIS is referring to the specific instance of the object that is created and returned by the constructor function.
+    # New Binding - Whenever a constructor function is used THIS is referring to the specific instance of the object that is created and returned by the constructor function.
 
-    Explicit Binding - You are overriding what the THIS keyword points to. Whenever the call or apply method is used, THIS is explicitly defined. 
+    # Explicit Binding - You are overriding what the THIS keyword points to. Whenever the call or apply method is used, THIS is explicitly defined. 
 
 
 5. Why do we need super() in an extended class?
 
-    Instead of using .call we use extend to relate child to parent, super() makes sure the attributes get inherited.
+    # Instead of using .call we use extend to relate child to parent, super() makes sure the attributes get inherited.
 
 ## Project Set up
 
